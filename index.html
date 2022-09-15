@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weartake Shop</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/database.js" defer></script>
+    <script src="./js/index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-space-limiter">
+            <h1>Weartake</h1>
+            <ul class="header-Nav-Sectors">
+                <li class="header-Nav-Options">Todos</li>
+                <li class="header-Nav-Options">Acessórios</li>
+                <li class="header-Nav-Options">Calçados</li>
+                <li class="header-Nav-Options">Camisetas</li>
+            </ul>
+        </div>
+    </header>
+    <div class="desktop-container">
+        <main>
+            <ul id="stored-items">
+
+
+            </ul>
+        </main>
+        <aside class="kart">
+            <div class="search-area-box">
+                <label for="text-Search-Area" hidden>Digite aqui sua pesquisa</label>
+                <input type="text" id="text-Search-Area" class="search-area-input"
+                    placeholder="Digite aqui sua pesquisa">
+                <button class="search-button">Pesquisar</button>
+            </div>
+            <p class="shop-kart-label">
+                Carrinho de compras
+            </p>
+            <div class="shop-kart">
+                <ul class="inside-kart-items" >
+
+                </ul>
+            </div>
+            <div class="calculator">
+                <h6 class="items-quantity">Quantidade</h6>
+                <h6>Total: </h6>
+            </div>
+        </aside>
+    </div>
+</body>
+
+</html>
