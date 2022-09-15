@@ -94,4 +94,3 @@ function kartPositionRemove(itemSelect){
     let iRemove = indexItemKart - 1
     let itemToRemove 
 }
-
